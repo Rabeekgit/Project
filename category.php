@@ -12,9 +12,9 @@ if (!defined('BASEPATH'))
  * @since		Version 1.0
  * @purpose              To handle categories module for administrator
  */
-class Category extends MY_Controlleredrdrdrdrdrdrd {
-    echo "helloo";
-    public $category_arr = array();
+
+class Category extends MY_Controller {
+ public $category_arr = array();
     public $rejected_category_keywords = array();
     
     function __construct() {
@@ -24,7 +24,6 @@ class Category extends MY_Controlleredrdrdrdrdrdrd {
             $current_url['redirect'] = current_url();
             $this->nativesession->set($current_url);
             redirect('login');
-		yfgyyfrfyfyff
         }
         $this->load->helper('category_helper');
         $this->load->library('my_pagination');
