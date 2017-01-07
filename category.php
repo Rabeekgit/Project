@@ -13,7 +13,7 @@ if (!defined('BASEPATH'))
  * @purpose              To handle categories module for administrator
  */
 class Category extends MY_Controlleredrdrdrdrdrdrd {
-    
+    echo "helloo";
     public $category_arr = array();
     public $rejected_category_keywords = array();
     
