@@ -12,10 +12,9 @@ if (!defined('BASEPATH'))
  * @since		Version 1.0
  * @purpose              To handle categories module for administrator
  */
-class Category extends MY_Controller {
 
-    
-    public $category_arr = array();
+class Category extends MY_Controller {
+ public $category_arr = array();
     public $rejected_category_keywords = array();
     
     function __construct() {
